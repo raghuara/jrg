@@ -1,8 +1,8 @@
 // Production Link 
-const baseApiurl = ` https://schoolcommunicationintelwebapi.azurewebsites.net/api/`;
+const baseApiurl = `https://schoolcommunicationjrgwebapi.azurewebsites.net/api/`;
 
 // UAT Link
-// const baseApiurl = ` https://schoolcommunicationintelwebapi.azurewebsites.net/api/`;
+// const baseApiurl = ` https://schoolcommunicationjrgwebapi.azurewebsites.net/api/`;
 
 const Login = `${baseApiurl}Login`;
 

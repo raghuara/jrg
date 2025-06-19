@@ -1,14 +1,24 @@
 import { createSlice } from '@reduxjs/toolkit';
 import LogoImage from '../../Images/Login/MSMSLogo.png';
 
+// const initialState = {
+//   logo: LogoImage,
+//   title: "Edu Connect",
+//   darkColor: "#EEA200",
+//   mainColor: "#FCBE3A",
+//   lightColor: "#FFF7E5",
+//   textColor: "#000000",
+//   backgroundColor: "#FFFDF7",
+// };
+
 const initialState = {
   logo: LogoImage,
   title: "Edu Connect",
-  darkColor: "#EEA200",
-  mainColor: "#FCBE3A",
-  lightColor: "#FFF7E5",
-  textColor: "#000000",
-  backgroundColor: "#FFFDF7",
+  darkColor: "#65075B",
+  mainColor: "#A90B98",
+  lightColor: "#E5B6E0",
+  textColor: "#ffffff",
+  backgroundColor: "#F6E7F5",
 };
 
 const websiteSettingsSlice = createSlice({

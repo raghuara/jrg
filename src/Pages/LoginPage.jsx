@@ -158,7 +158,7 @@ export default function LoginPage() {
                                     }
                                     `}
                                 </style>
-                                <Slider style={{ backgroundColor: "#FFFDF7", padding: "0px", boxShadow: "none" }} {...settings}>
+                                <Slider style={{  backgroundColor: websiteSettings.backgroundColor, padding: "0px", boxShadow: "none" }} {...settings}>
                                     <Box sx={{ borderRadius: "6px", position: "relative" }}>
                                         <img width={"100%"} src={slider1} alt="sliderimg" />
                                     </Box>
